@@ -1,0 +1,76 @@
+# .NET Core & ASP.NET Core
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files (Mono Auto Generated)
+mono_crash.*
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the presence of 'restore' functionality in the NuGet client 
+**/packages/*
+!**/packages/build/
+!**/packages/rebuild/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/**/Vagrantfile
+!.nuget/NuGet.Config
+# Uncomment if you have to store credentials and custom config settings in the .nuget/NuGet.Config file
+#!.nuget/NuGet.Config
+!**/packages/**/*.props
+!**/packages/**/*.targets
+
+# The following line skips temporary publish folder for Web projects
+wwwroot/
+
+## Optional: you can add other commonly ignored folders depending on the packages/libraries you're using
+
+# Rider specific files
+.idea/
+
+# VS Code directories
+.vscode/
+.history/
+.vscode/settings.json
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# JetBrains Rider settings
+.idea/
+
+# VS Code files
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore all logs
+*.log
